@@ -1,7 +1,8 @@
 import React from 'react'
-import Profile from '../../img/profile.jpg'
-import './Hero.css'
-export default function Hero() {
+import Img from '../../img/profile.jpg'
+import './Profile.css'
+
+export default function Profile() {
   return (
     <div>
       
@@ -25,7 +26,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex-1">
-          <img src={Profile} id='portfolio-img' alt='portfolio-img'
+          <img src={Img} id='portfolio-img' alt='portfolio-img'
                className="profile-img"/>
         </div>
       </section>
